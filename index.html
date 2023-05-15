@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>하나투어</title>
+    <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/hana-icon.png">
+    <link rel="stylesheet" href="http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/script.js"></script>
+
+</head>
+<body>
+    <div class="event">
+        <img src="images/event-banner.png" alt="">
+        <i class="xi-close xi-2x"></i>
+    </div>
+
+    <div class="top">
+        <a href="#"><img src="images/top.png" alt=""></a>
+    </div>
+
+    <header>
+        <div class="inner_container">
+            <div class="header_wrap">
+                <h1><a href="#"><img src="images/hana-logo.png" alt=""></a></h1>
+                <div class="header_right">
+                    <ul class="login">
+                        <li><a href="#">로그인/회원가입</a></li>
+                        <li><a href="#">예약확인</a></li>
+                        <li><a href="#">고객센터</a></li>
+                        <li><a href="#">기업/학원/단체</a></li>
+                    </ul>
+                    <span></span>
+                    <nav>
+                        <ul class="header_menu">
+                            <li>
+                                <a href="#">해외여행</a>
+                                <div class="sub">
+                                    <ul class="depth02">
+                                        <li>
+                                            <a href="#">해외여행 홈</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">동남아/대만/서남아</a>
+                                            <ul class="depth03">
+                                                <li><a href="#">태국</a></li>
+                                                <li><a href="#">싱가포르</a></li>
+                                                <li><a href="#">베트남</a></li>
+                                                <li><a href="#">필리핀</a></li>
+                                                <li><a href="#">캄보디아</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#">괌/사이판/호주/뉴질랜드</a>
+                                            <ul class="depth03">
+                                                <li><a href="#">괌</a></li>
+                                                <li><a href="#">사이판</a></li>
+                                                <li><a href="#">호주</a></li>
+                                                <li><a href="#">뉴질랜드</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#">유럽/아프리카</a>
+                                            <ul class="depth03">
+                                                <li><a href="#">서유럽</a></li>
+                                                <li><a href="#">동유럽</a></li>
+                                                <li><a href="#">북유럽</a></li>
+                                                <li><a href="#">튀르키예(터키)</a></li>
+                                                <li><a href="#">아프리카</a></li>
+                                                <li><a href="#">코카서스</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#">미주/중남미/하와이</a>
+                                            <ul class="depth03">
+                                                <li><a href="#">하와이</a></li>
+                                                <li><a href="#">알래스카</a></li>
+                                                <li><a href="#">캐나다</a></li>
+                                                <li><a href="#">미국 동부</a></li>
+                                                <li><a href="#">미국 서부</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#">일본</a>
+                                            <ul class="depth03">
+                                                <li><a href="#">간토</a></li>
+                                                <li><a href="#">간사이</a></li>
+                                                <li><a href="#">규슈</a></li>
+                                                <li><a href="#">훗카이도</a></li>
+                                                <li><a href="#">오키나와</a></li>
+                                                <li><a href="#">대마도</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#">중국/몽골/중앙아시아</a>
+                                            <ul class="depth03">
+                                                <li><a href="#">몽골</a></li>
+                                                <li><a href="#">홍콩</a></li>
+                                                <li><a href="#">마카오</a></li>
+                                                <li><a href="#">상해</a></li>
+                                                <li><a href="#">북경</a></li>
+                                                <li><a href="#">백두산</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">지방 출발</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#">제주/국내여행</a>
+                                <div class="sub">
+                                    <ul class="depth02">
+                                        <li>
+                                            <a href="#">제주/국내여행</a>
+                                            
+                                            <ul class="depth03">
+                                                <li><a href="#">제주도</a></li>
+                                                <li><a href="#">부산</a></li>
+                                                <li><a href="#">강원도</a></li>
+                                                <li><a href="#">서울</a></li>
+                                                <li><a href="#">인천</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#">울릉도</a>
+                                            <ul class="depth03">
+                                                <li><a href="#">강릉,묵호항</a></li>
+                                                <li><a href="#">포항영일만</a></li>
+                                                <li><a href="#">포항항,후포항</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">제주렌터카</a></li>
+                                        <li><a href="#">내나라여행</a></li>
+                                        <li><a href="#">국내골프</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#">투어/입장권</a>
+                                <div class="sub">
+                                    <ul class="depth02">
+                                        <li><a href="#">투어/입장권 홈</a></li>
+                                        <li>
+                                            <a href="#">국내</a>
+                                            <ul class="depth03">
+                                                <li><a href="#">제주시</a></li>
+                                                <li><a href="#">서울</a></li>
+                                                <li><a href="#">경기</a></li>
+                                                <li><a href="#">강원</a></li>
+                                                <li><a href="#">부산</a></li>
+                                                <li><a href="#">대구</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#">해외</a>
+                                            <ul class="depth03">
+                                                <li><a href="#">동남아</a></li>
+                                                <li><a href="#">일본</a></li>
+                                                <li><a href="#">남태평양</a></li>
+                                                <li><a href="#">유럽</a></li>
+                                                <li><a href="#">중동</a></li>
+                                                <li><a href="#">미주</a></li>
+                                                <li><a href="#">홍콩</a></li>
+                                                <li><a href="#">중국</a></li>
+                                                <li><a href="#">마카오</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#">항공</a>
+                                <div class="sub">
+                                    <ul class="depth02">
+                                        <li><a href="#">항공예약</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#">호텔</a>
+                                <div class="sub">
+                                    <ul class="depth02">
+                                        <li><a href="#">해외호텔</a></li>
+                                        <li><a href="#">국내숙박</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#">허니문</a>
+                            </li>
+                            <li>
+                                <a href="#">골프</a>
+                            </li>
+                            <li>
+                                <a href="#">제우스</a>
+                            </li>
+                            <li>
+                                <a href="#">MICE</a>
+                            </li>
+                            <li>
+                                <a href="#">하나LIVE</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="main_visual">
+        <div class="search">
+            <div class="tab_con">
+                <input type="radio" name="tabmenu" id="tab01" checked>
+                <label for="tab01">패키지</label>
+                <input type="radio" name="tabmenu" id="tab02">
+                <label for="tab02">항공</label>
+                <input type="radio" name="tabmenu" id="tab03">
+                <label for="tab03">호텔</label>
+                <div class="conbox con01">
+                    <div class="place">
+                        <i class="xi-maker xi-2x"></i>
+                        <select name="서울출발" id="start" class="searchstart">
+                            <option value="서울출발">서울출발</option>
+                            <option value="부산ㅣ대구출발">부산ㅣ대구출발</option>
+                        </select>
+                    </div>
+                    <div class="date">
+                        <i class="xi-calendar xi-2x"></i>
+                        <p><a href="#">2023/04/06</a></p>
+                        ㅏ
+                    </div>
+                    <a href="#">검색하기</a>
+                </div>
+                <div class="conbox con02">
+                    <div class="way">
+                        <ul>
+                            <li><a href="#" class="wayon">왕복</a></li>
+                            <li><a href="#">편도</a></li>
+                            <li><a href="#">다구간</a></li>
+                        </ul>
+                    </div>
+                    <div class="air_place">
+                        <div class="air_left">
+                            <i class="xi-maker xi-2x"></i>
+                            <a href="#">출발지</a>
+                        </div>
+                        <i class="xi-exchange xi-2x"></i>
+                        <div class="air_right">
+                            <i class="xi-maker xi-2x"></i>
+                            <a href="#">도착지</a>
+                        </div>
+                    </div>
+                    <div class="air_date">
+                        <i class="xi-calendar xi-2x"></i>
+                        <a href="#">탑승일</a>
+                    </div>
+                    <a href="#">항공권 검색</a>
+                </div>
+                <div class="conbox con03">
+                    <div>
+                        <i class="xi-maker xi-2x"></i>
+                        <input type="text" placeholder="어디로 떠나세요?">
+                    </div>
+                    <div>
+                        <i class="xi-calendar xi-2x"></i>
+                        <p><a href="#">날짜 선택</a></p>
+                    </div>
+                    <div>
+                        <i class="xi-user-o xi-2x"></i>
+                        <p><a href="#">객실1 성인 2명</a></p>
+                    </div>
+                    <a href="#">숙소 검색</a>
+                    
+                </div>
+            </div>
+            <div class="banner">
+                <a href="#"><img src="images/europe-banner.png" alt=""></a>
+            </div>
+        </div>
+        <div class="visual_wrap slider">
+            <div class="visual_area visual01"></div>
+            <div class="visual_area visual02"></div>
+            <div class="visual_area visual03"></div>
+            <div class="visual_area visual04"></div>
+        </div>
+    </section>
+
+    <section id="where">
+        <div class="inner_container">
+            <input type="text" placeholder="어디로 떠나고 싶으세요?">
+            <i class="xi-search xi-3x"></i>
+        </div>
+    </section>
+
+    <section id="hotsale">
+        <div class="inner_container">
+            <div class="bg">
+                <img src="images/hot-main.png" alt="">
+                <div class="bg_black"></div>
+                <h2><span>HOT</span>특가로<br>누리는<br>여행의 낭만</h2>
+            </div>
+            <div class="hot_tab">
+                <input type="radio" name="hot_tabcon" id="hottab01" checked>
+                <input type="radio" name="hot_tabcon" id="hottab02">
+                <input type="radio" name="hot_tabcon" id="hottab03">
+                <div class="tab_menu">
+                    <label for="hottab01">유럽</label>
+                    <label for="hottab02">일본</label>
+                    <label for="hottab03">국내</label>
+                    <span></span>
+                </div>
+                <div class="hot_box hot01" data-aos="fade-left" data-aos-duration="1500">
+                    <ul class="hot_eu">
+                        <li>
+                            <div class="hot_black"></div>
+                            <p class="hot_package">패키지</p>
+                            <p class="hot_title">동유럽 오스트리아/체코/헝가리 8/9/10일</p>
+                            <p class="tag">#시내호텔1박이상 #맛집탐방</p>
+                            <p class="price">3,590,000 <span>원~</span></p>
+                        </li>
+                        <li>
+                            <div class="hot_black"></div>
+                            <p class="hot_package">패키지</p>
+                            <p class="hot_title">발틱 (에스토니아/라트비아/<br>리투아니아) 연계상품</p>
+                            <p class="tag">#추천여행지 #발트여행 #발틱패키지</p>
+                            <p class="price">3,040,000 <span>원~</span></p>
+                        </li>
+                        <li>
+                            <div class="hot_black"></div>
+                            <p class="hot_package">패키지</p>
+                            <p class="hot_title">스페인일주 8~9일</p>
+                            <p class="tag">#가성비여행 #초특가 #전일정4성호텔</p>
+                            <p class="price">2,499,000 <span>원~</span></p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="hot_box hot02">
+                    <ul class="hot_jp">
+                        <li>
+                            <div class="hot_black"></div>
+                            <p class="hot_package">패키지</p>
+                            <p class="hot_title">오사카/고베 3일</p>
+                            <p class="tag">#오사카성 #도톤보리 #1일자유</p>
+                            <p class="price">699,000 <span>원~</span></p>
+                        </li>
+                        <li>
+                            <div class="hot_black"></div>
+                            <p class="hot_package">패키지</p>
+                            <p class="hot_title">교토/오사카/고베 3일</p>
+                            <p class="tag">#아라시야마 #오하라마을 #2대특식</p>
+                            <p class="price">799,000 <span>원~</span></p>
+                        </li>
+                        <li>
+                            <div class="hot_black"></div>
+                            <p class="hot_package">패키지</p>
+                            <p class="hot_title">훗카이도 자유 4일</p>
+                            <p class="tag">#삿포로시내숙박 #티마크시티삿포로</p>
+                            <p class="price">699,000 <span>원~</span></p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="hot_box hot03">
+                    <ul class="hot_kr">
+                        <li>
+                            <div class="hot_black"></div>
+                            <p class="hot_package">패키지</p>
+                            <p class="hot_title">[스탠다드] 제주 3일/4일]</p>
+                            <p class="tag">#BEST추천여행 #특급호텔 #제주특식</p>
+                            <p class="price">599,000 <span>원~</span></p>
+                        </li>
+                        <li>
+                            <div class="hot_black"></div>
+                            <p class="hot_package">패키지</p>
+                            <p class="hot_title">사진작가와 함께하는 영월 2일</p>
+                            <p class="tag">#인생샷여행 #선암마을 #출사여행</p>
+                            <p class="price">349,000 <span>원~</span></p>
+                        </li>
+                        <li>
+                            <div class="hot_black"></div>
+                            <p class="hot_package">패키지</p>
+                            <p class="hot_title">[강릉항/묵호항/독도] 울릉도<br>3일</p>
+                            <p class="tag">#연합행사 #예림원 #석식1회</p>
+                            <p class="price">399,000 <span>원~</span></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="recommend">
+        <div class="inner_container">
+            <h3>'하나'뿐인 추천여행</h3>
+            <div class="recommend_wrap">
+                <div class="swiss">
+                    <div class="swiss_text">
+                        <strong>스위스 일주 8~9일</strong>
+                        <p class="swiss_tag">#베스트셀러 #알프스여행</p>
+                        <p class="swiss_price">
+                            4,499,000 <span>원~</span>
+                        </p>
+                    </div>
+                    <div class="swiss_black">
+                        <div class="swiss_con">
+                            <p class="swisstag_black">#베스트셀러 #알프스여행</p>
+                            <strong>스위스 일주 8~9일</strong>
+                            <p class="swissprice_black">
+                                4,400,000 <span>원~</span>
+                            </p>
+                            <a href="#">자세히 보기</a>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="reco_right">
+                    <ul>
+                        <li class="turkey">
+                            <div class="turkey_text">
+                                <strong>튀르키예 일주 성지순례 9~10일</strong>
+                                <p class="turkey_tag">#베스트셀러 #가성비 #사도바울</p>
+                                <p class="turkey_price">
+                                    2,520,000 <span>원~</span>
+                                </p>
+                            </div>
+                            <div class="turkey_black">
+                                <div class="turkey_con">
+                                    <p class="turkeytag_black">#베스트셀러 #가성비 #사도바울</p>
+                                    <strong>튀르키예 일주 성지순례 9~10일</strong>
+                                    <p class="turkeyprice_black">
+                                        2,520,000 <span>원~</span>
+                                    </p>
+                                    <a href="#">자세히 보기</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="guam">
+                            <div class="guam_text">
+                                <strong>괌 자유여행 4~6일</strong>
+                                <p class="guam_tag">#항공 #호텔 #괌공항왕복셔틀</p>
+                                <p class="guam_price">
+                                    629,000 <span>원~</span>
+                                </p>
+                            </div>
+                            <div class="guam_black">
+                                <div class="guam_con">
+                                    <p class="guamtag_black">#항공 #호텔 <br>#괌공항왕복셔틀</p>
+                                    <strong>괌 자유여행 4~6일</strong>
+                                    <p class="guamprice_black">
+                                        629,000 <span>원~</span>
+                                    </p>
+                                    <a href="#">자세히 보기</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="danang">
+                            <div class="danang_text">
+                                <strong>다낭/호이안 4~6일</strong>
+                                <p class="danang_tag">#바나힐테마파크#전신마사지</p>
+                                <p class="danang_price">
+                                    399,000 <span>원~</span>
+                                </p>
+                            </div>
+                            <div class="danang_black">
+                                <div class="danang_con">
+                                    <p class="danangtag_black">#바나힐테마파크 <br>#전신마사지</p>
+                                    <strong>다낭/호이안 4~6일</strong>
+                                    <p class="danangprice_black">
+                                        399,000 <span>원~</span>
+                                    </p>
+                                    <a href="#">자세히 보기</a>
+                                </div>
+
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="spring">
+        <div class="inner_container">
+            <img src="images/spring-text.png" alt="">
+            <ul>
+                <li>
+                    <p>독일 품격 일주 9일</p>
+                </li>
+                <li>
+                    <p>이탈리아 정통일주 8~9일</p>
+                </li>
+                <li>
+                    <p>네덜란드/벨기에/룩셈부르크 8~9일</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="magazine">
+        <div class="mag_wrap" data-aos="fade-up" data-aos-duration="3000">
+            <ul>
+                <li>
+                    <div class="mag_text00">
+                        <h4>Magazine</h4>
+                        <p>어디로 떠날지 고민하는 여행자에게<br>유용한 정보를 소개합니다.</p>
+                        <a href="#">더보기  →</a>
+                    </div>
+                    
+                </li>
+                <li class="mag_con mag1">
+                    <a href="">
+                        <div class="mag_text0 mtext01">
+                            <strong>01</strong>
+                            <p>꿈의 휴양지, 산토리니</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="mag_con mag2">
+                    <a href="">
+                        <div class="mag_text0 mtext01">
+                            <strong>02</strong>
+                            <p>몽골, 별자리를 찾아서 떠나는 여행</p>
+                        </div>
+                    </a>
+                    
+                </li>
+                <li class="mag_con mag3">
+                    <a href="sub.html" target="_blank">
+                        <div class="mag_text0 mtext01">
+                            <strong>03</strong>
+                            <p>유럽동부의 알프스, 코카서스</p>
+                        </div>
+                    </a>
+                </li> 
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer_wrap">
+            <div class="ft_icon">
+                <ul>
+                    <li><a href="#"><img src="images/icon-facebook.png" alt=""></a></li>
+                    <li><a href="#"><img src="images/icon-instagram.png" alt=""></a></li>
+                    <li><a href="#"><img src="images/icon-blog.png" alt=""></a></li>
+                    <li><a href="#"><img src="images/icon-kakaotalk.png" alt=""></a></li>
+                    <li><a href="#"><img src="images/icon-youtube.png" alt=""></a></li>
+                    <li><a href="#"><img src="images/icon-kakaostory.png" alt=""></a></li>
+                </ul>
+                <span></span>
+            </div>
+            <div class="ft_text01">
+                <ul>
+                    <li class="ft_hana01">
+                        <p>하나투어닷컴<br>고객센터</p>
+                        <p>1577-1233</p>
+                        <div>
+                            <a href="#">자주 찾는 질문></a>
+                            <a href="#">ARS상담번호안내></a>
+                        </div>
+                    </li>
+                    <li  class="ft_hana02">
+                        <div>
+                            <p class="hana_17px">해외여행 문의</p>
+                            <p>평일/주말 : 09:00~20:00</p>
+                        </div>
+                        <div>
+                            <p class="hana_17px">해외항공권 문의</p>
+                            <p>1899-1833</p>
+                            <p>평일: 0900~17:00</p>
+                        </div>
+                    </li>
+                    <li class="ft_hana03">
+                        <p class="hana_17px">상담번호안내</p>
+                        <p>1번 예약상담 및 조회</p>
+                        <p>2번 마일리지, 제휴카드, 상품권 및 기타문의</p>
+                    </li>
+                    <li class="ft_hana04">
+                        <div>
+                            <p class="hana_17px">국내여행/기업출장/교육여행 단체 문의</p>
+                            <p>평일: 09:00~18:00</p>
+                        </div>
+                        <div>
+                            <p>외국인한국여행 전용상담 02-398-6600</p>
+                            <p>법인고객 전용상담 1566-0072</p>
+                            <p>안심카드결제 ARS 1577-0015</p>
+                            <a href="#">카드/제휴혜택</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="ft_text02">
+                <ul>
+                    <li><a href="#">회사소개</a></li>
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="#">개인정보처리방침</a></li>
+                    <li><a href="#">여행약관</a></li>
+                    <li><a href="#">해외여행자보험</a></li>
+                    <li><a href="#">마케팅제휴</a></li>
+                    <li><a href="#">공식인증예약센터 검색</a></li>
+                </ul>
+                <p class="ft_hana02">(주)하나투어 ㅣ 대표:송미선 ㅣ 주소:(03161) 서울특별시 종로구 인사동 5길 41<br>
+                사업자등록번호 : 102-81-39440 ㅣ 사업자정보확인 ㅣ 통신판매업신고번호 : 종로01-1806호 ㅣ 관광사업자 등록번호 : 제1993-000006호<br>
+                개인정보 보호책임자 : 전종형 ㅣ 영업보증보험 : 22억 1천만원 기입 ㅣ 팩스 : 02-734-0392 ㅣ 이메일 : 15771233@hanatour.com</p>
+                <p>고객센터 1577-1233 ㅣ 해외항공권문의 1899-1833</p>
+                <p class="hana_10px">※부득이한 사정에 의해 여행일정이 변경되는 경우 사전 동의를 받습니다.<br>
+                ※하나투어는 개별 항공권, 단품 및 여행상품에 대하여 통신판매중개자로서 통신판매의 당사자가 아니며 해당상품의 거래정보 및 거래등에 대해 책임을 지지 않습니다.</p>
+                <p class="hana_10px">COPYRIGHT&COPY; HANATOUR SERVICE INC. ALL RIGHTS RESERVED</p>
+                <div>
+                    <p>하나은행 구매안전 서비스</p>
+                    <p>고객님은 안전거래를 위해 현금으로 결제시<br>(주)하나투어에서 가입한 하나은행으로<br>구매안전서비스를 이용하실 수 있습니다.</p>
+                    <a href="#">서비스 가입사실 확인</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
